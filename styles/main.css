@@ -17,8 +17,8 @@ body{
 #menu{
     text-align: center;
     display: flex;
-    flex: row ;
-
+    flex: row wrap;
+    justify-content: space-evenly;
 }
 
 #menu a{
@@ -109,10 +109,25 @@ body{
     margin-top: 0;
 }
 
+
 #sec-como-puedo-ayudarte #sec-servicios{
     display: flex;
     flex: row wrap;
     justify-content: space-evenly;
+}
+
+#sec-como-puedo-ayudarte .boton-ver{ 
+    background: white;
+    border: solid black 1px;
+    color: #e07923;
+    padding: 5px;
+    box-shadow: 3px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+#sec-como-puedo-ayudarte .boton-ver :hover{ 
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+    color: #4890cb;
 }
 
 #sec-como-puedo-ayudarte #sec-servicios .art{
@@ -176,3 +191,64 @@ body{
 #pie{
     text-align: center;
 }
+
+
+
+#sec-contenedor-lg{
+    background-color: #cf8f30;
+    margin: 50px auto;
+
+
+    display: flex;
+    flex: row wrap;
+    justify-content: space-around;
+}
+
+#sec-contenedor-lg img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+
+    
+}
+
+/*.cnt-img-lg{
+    background: #607d8b;
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+
+    flex: 1 1 auto;
+
+
+}*/
+
+.otro{
+    /*   order: 1;*/
+       align-self: stretch;
+      /*
+      align-self: flex-start;
+      align-self: center;
+       align-self: flex-end;*/
+       height: auto;
+   }
+
+
+@media only screen and (max-width: 800px) {
+body {
+      background-color: red;
+    }
+  }
+
+  @media screen {
+    h1 {
+    color: red;
+    }
+    }
+   
+  
