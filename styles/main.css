@@ -1,4 +1,174 @@
+body{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 10px 10px 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .borde{
     border: 1px solid black;
     padding: 15px;
+}
+
+#cabecera{
+    text-align: center;
+}
+
+#menu{
+    text-align: center;
+}
+
+#menu a{
+    display: inline-block;
+    background: #867ea5;
+    color: black;
+    font-size: 15pt;
+    padding: 5px 20px 5px 20px;
+    width: 25%;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#menu a:hover{
+    background: rgb(90, 79, 136); 
+    color: white;
+}
+
+#menu a:active{
+    background: rgb(28, 22, 56);
+
+}
+
+#menu .activo{
+    background: #f37300;
+}
+
+#sec-quien-soy{
+    display: flex;
+    flex: row wrap;
+}
+
+/*#sec-quien-soy #img-sec-quien-soy{
+    padding-top: 30%;
+    padding-bottom: 30%;
+}*/
+
+/*#sec-quien-soy img{
+    max-width: 100%;
+}*/
+
+#sec-quien-soy #titulo-soy-dg{
+    margin-bottom: 1px;
+}
+
+#sec-quien-soy #soy-dg{
+    font-size: 10px;
+}
+
+#sec-quien-soy #art-soy p{
+    text-align: justify;
+}
+
+#sec-quien-soy #art-soy hr{
+    width: 40%;
+    margin-left: 0;  
+    background-color: black;
+    height: 3px;
+    border-radius: 50%;
+    transform: rotate(1deg);
+}
+
+#sec-a-que-me-dedico{
+    padding: 30px;
+    text-align: center;
+    background: #6fa8dc;
+    color: white;
+}
+
+#sec-a-que-me-dedico hr{
+    width: 30%;  
+    background-color: white;
+    height: 3px;
+    border-radius: 50%;
+    transform: rotate(1deg);
+}
+
+#sec-a-que-me-dedico h1{
+    margin-bottom: 0px;
+}
+
+#sec-como-puedo-ayudarte{
+    text-align: center;
+}
+
+#sec-como-puedo-ayudarte h1{
+    margin-top: 0;
+}
+
+#sec-como-puedo-ayudarte #sec-servicios{
+    display: flex;
+    flex: row wrap;
+    justify-content: space-evenly;
+}
+
+#sec-como-puedo-ayudarte #sec-servicios .art{
+    max-width: 30%;
+}
+
+#sec-como-puedo-ayudarte #sec-servicios article{
+    padding: 5px;
+    background: #ff9900;
+    color: white;
+    border: solid 2px #3178dc;
+}
+
+#sec-como-puedo-ayudarte #sec-servicios article p{
+    text-align: justify;
+    font-size: 11pt;
+}
+
+#sec-herramientas-de-mi-dominio{
+    text-align: center;
+    color: white;
+    background: rgb(163, 163, 235);
+}
+
+#sec-herramientas-de-mi-dominio h1{
+    margin-top: 0;
+}
+    
+#sec-herramientas-de-mi-dominio table{
+    margin: auto;
+    color: black;
+}
+
+/*#sec-herramientas-de-mi-dominio table tbody .td-photo{
+    padding: ;
+}*/
+
+#sec-herramientas-de-mi-dominio table tbody .td-illus{
+    padding: 50px;
+}
+
+#sec-herramientas-de-mi-dominio table tbody .td-corel{
+    padding: 30px;
+}
+
+#sec-herramientas-de-mi-dominio table tbody .img-photo{
+    max-width: 40%;
+    max-height: 40%;
+}
+
+#sec-herramientas-de-mi-dominio table tbody .img-illus{
+    max-width: 70%;
+    max-height: 70%;
+}
+
+#sec-herramientas-de-mi-dominio table tbody .img-corel{
+    max-width: 55%;
+    max-height: 55%;
+}
+
+#pie{
+    text-align: center;
 }
