@@ -16,10 +16,13 @@ body{
 
 #menu{
     text-align: center;
+    display: flex;
+    flex: row ;
+
 }
 
 #menu a{
-    display: inline-block;
+    /*display: inline-block;*/
     background: #867ea5;
     color: black;
     font-size: 15pt;
@@ -27,6 +30,7 @@ body{
     width: 25%;
     text-decoration: none;
     border-radius: 5px;
+    margin: 8px;
 }
 
 #menu a:hover{
